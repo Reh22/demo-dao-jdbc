@@ -1,5 +1,4 @@
-# demo-dao-jdbc
-
+# Projeto: demo-dao-jdbc
 #### Sumário
 * [Introdução](#introdução)
   - [Objetivo](#objetivo)
@@ -28,13 +27,8 @@ Migrar a aplicação em Visual Basic -  SACPAM01 para Java - JAB3
 ## Equipe
 | Cargo | Nome | Email |
 | ------ | ----- | ------ |
-| GER		 | Daniel Ito de Souza       | dan.souza@f1rst.com.br   |
-| PO		 | Emilene Fabiane Lourenco  | elourenco@f1rst.com.br   |
-| SM		 | Ariane Cristina Rodrigues | ariane.rodrigues@f1rst.com.br    |
-| DEV BACK   | Antonio Carlos da Silva   | antosilva@prservicos.com.br |
-| DEV BACK   | Wendell Gomes Silva       | wendell.silva@prservicos.com.br |
-| DEV BACK   | Everton Lima              | p000e_lima@prservicos.com.br    |
-| QA         | Kaue Teixeira Santos      | kaue.santos@prservicos.com.br |
+| Desenvolvedor		 | Renato dos Santos       | renatorenatex20@gmail.com   |
+
 
 ## Descrição Funcional
 resumo da historia do projeto
