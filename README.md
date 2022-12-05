@@ -38,15 +38,12 @@ requisitos funcionais
 ### Pré-requisitos
 | Componente   | Versão       | Descrição                      |
 |--------------|--------------|--------------------------------|
-| OpenJDK      | 11.0.5       | java-11-openjdk-11.0.5.10-2.windows.redhat.x86_64 |
-| Apache Maven | 3.6.1        | Build e Gestão de Dependências |
+| OpenJDK      | 17.0.3.1       | 17.0.3.1" 2022-04-22 LTS |
 
 ### Detalhes Técnicos
 | Requisito |  |
 | ------ | ------ |
-| CloudBees | https://cloudbees.santanderbr.corp/gestao-controle/job/PAM/job/IAAS_PACOTES/job/PIPELINE-IAAS-IAAS_PACOTES-PAM/ |
-| Cerberon | RP034956 |
-| Banco de dados HML(Oracle)  | 'oraho108' |  
+
 
   
   
@@ -90,31 +87,3 @@ Na guia `VM Arguments` os parâmetros:
 | Código | Nome | Descrição                      |
 | ----- | ----- | ---------                      |
 | AMORT_DIV   | importarCargaAmortizacaoDividendos  | Deleta dados na tabela TB_RENT_DIVD_AMTZ e, após, insere dados na tabela TB_RENT_DIVD_AMTZ |
-| XMLINTRA    | atualizaXMLIntranet  | |
-| XMLINTLIE   | atualizaXMLIntraLIE  | |
-| GERACSV     | geracaoCSVMatriz  | |
-| ATUPRDSAC   | atualizaProduto  | Insere ou atualiza dados na tabela PAM_PRODUTO_ASSET_MANAGEMENT |
-| CADSETOR    | carregaCadastroSetor  | Insere ou atualiza dados na tabela PAM_SETOR_ECONOMICO_SAC |
-| CADEMISSOR  | carregaCadastroEmissor  | Chama a APi do Caceis [instituicaoFinanceira e empresa], <br>com o resultado chama a procedure PAMP_ITEMP_INSUPD Insere ou atualiza dados na tabela PAM_INSTITUICAO_EMISSORA_SAC<br>Esta function carregara para dentro do PAM os emissores de papel do sistema YMF |
-| CADINE      | carregaCadastroIndicador  | Insere ou atualiza dados na tabela PAM_INE_FNRO_SAC |
-| CADCARTR    | carregaCarteira  | Insere ou atualiza dados na tabela PAM_CARTEIRA_SAC |
-| CADFERIADO  | carregaCadastroFeriado  | Deleta dados na tabela PAM_FERIADO_SAC e, após, insere dados na tabela PAM_FERIADO_SAC |
-| ATUREGUA    | atualizaReguaDU  | Deleta e insere dados na tabela PAM_FERIADO_PAM e, após, insere ou atualiza dados na tabela PAM_REGUA_DIA_UTIL |
-| COTINE      | carregaCotacaoIndicador  | Insere ou atualiza dados na tabela PAM_COTAC_INE_FNRO_SAC |
-| ACUMINE     | atualizaCotac  | |
-| POCARTR     | carregaPosicaoCarteira  | Insere ou atualiza dados na tabela PAM_POSICAO_CARTEIRA_SAC |
-| ACUMRENTB   | atualizaRentab  | |
-| ATUPARAMD0  | atualizaParametro  | |
-| ACUMPRORATA | atualizaProRataMensal  | Insere dados na tabela PAM_COTAC_INE_FNRO_TMP e, após, insere ou atualiza dados na tabela PAM_RENTB_ACUM_PRO_BENCH |
-| GESTORES    | atualizaPosicaoGestores  | |
-| COMPRF      | carregaComposicaoRFPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_RENDA_FIXA_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_RENDA_FIXA_SAC |
-| COMPRV      | carregaComposicaoRVPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_RENDAVARIAVEL_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_RENDAVARIAVEL_SAC |
-| COMPFN      | carregaComposicaoFundosPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_FUNDO_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_FUNDO_SAC |
-| COMPFU      | carregaComposicaoFuturoPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_FUTURO_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_FUTURO_SAC |
-| COMPCX      | carregaComposicaoCaixaPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_CAIXA_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_CAIXA_SAC |
-| COMPSW      | carregaComposicaoSwapPAM  | Deleta dados na tabela PAM_COMPSC_PRO_PAPEL, deleta dados na tabela PAM_CARTEIRA_SWAP_SAC e, após, insere dados na tabela PAM_COMPSC_PRO_PAPEL e insere dados na tabela PAM_CARTEIRA_SWAP_SAC |
-| MVTOFN      | carregaComposicaoD0Fundos  | Insere ou atualiza dados na tabela PAM_CARTEIRA_FUNDO_SAC |
-| ARQPRIV     | geraArquivosIndicesPrivate  | |
-| ATUCTAFN    | atualizaCotasLiquidacao  | |
-| TERMOMX     | gerarArquivoTermoMX  | |
-| CADCVM  | carregaScriptASS  | Não migrado |
