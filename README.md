@@ -86,4 +86,4 @@ Na guia `VM Arguments` os parâmetros:
 ## Funcionalidades desta aplicação
 | Código | Nome | Descrição                      |
 | ----- | ----- | ---------                      |
-| AMORT_DIV   | importarCargaAmortizacaoDividendos  | Deleta dados na tabela TB_RENT_DIVD_AMTZ e, após, insere dados na tabela TB_RENT_DIVD_AMTZ |
+
